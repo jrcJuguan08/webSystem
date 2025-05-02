@@ -1,0 +1,39 @@
+.header {
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .nav h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .nav nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav nav a:hover {
+    color: #f4b400;
+  }
+
+  .status.complete {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status.incomplete {
+    color: red;
+    font-weight: bold;
+  }
