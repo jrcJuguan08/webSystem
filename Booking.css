@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+}
+
+label{
+    display: block;
+    margin-bottom: 4px;
+}
+
+.BookingfrmBox{
+    max-width: 650px;   
+    margin: 40px auto;
+    padding: 30px;
+    border: 2px solid black;
+    display: flex;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 40px;
+    border-radius: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input input{
+    width: 250px;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 25px;
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    color: black;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+}
+
+
