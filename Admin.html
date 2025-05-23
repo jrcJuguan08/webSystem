@@ -1,69 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Stylesheet" href="admin.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Admin Page</title>
+  <link rel="stylesheet" href="admin.css">
 </head>
 <body>
-    <header class="header">
-        <div class="nav">
-          <h1>Wedding Website</h1>
-          <nav>
-            <a href="https://example.com">Home</a>
-            <a href="https://example.com">Services & Amenities</a>
-            <a href="https://example.com">Contact Us</a>
-          </nav>
-        </div>
-      </header>
+  <header class="header">
+    <div class="nav">
+      <h1>Wedding Website</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Services & Amenities</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-    <h2> Admin Page</h2>
-    <div class="reference-number">
-        <table bgcolor = "black" width = "700">
-            <tr bgcolor = "grey">
-                <th> Name </th>
-                <th> Reference Number</th>
-                <th> Status</th>
-            </tr>
+  <main>
+    <h2>Admin Page</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Reference Number</th>
+          <th>Status</th>
+          <th>Progress</th>
+          <th>Cancel Booking</th>
+        </tr>
+      </thead>
+      <tbody id="adminTableBody"></tbody>
+    </table>
+  </main>
 
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 1 </td>
-                <td> Reference Number</td>
-                <td class="status complete">✔</td>
-            </tr>
-
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 2</td>
-                <td> Reference Number</td>
-                <td class="status incomplete">X</td>
-            </tr>
-            
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 3</td>
-                <td> Reference Number</td>
-                <td class="status incomplete">X</td>
-            </tr>
-
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 4</td>
-                <td> Reference Number</td>
-                <td class="status complete">✔</td>
-            </tr>
-
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 5</td>
-                <td> Reference Number</td>
-                <td class="status complete">✔</td>
-            </tr>
-
-            <tr bgcolor = "lightgrey" align = "center">
-                <td> Customer 6</td>
-                <td> Reference Number</td>
-                <td class="status incomplete">X</td>
-            </tr>
-        </table>
-    </main>
+  <script type="module" src="admin.js"></script>
 </body>
 </html>

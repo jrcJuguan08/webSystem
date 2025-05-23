@@ -28,12 +28,27 @@
     color: #f4b400;
   }
 
-  .status.complete {
-    color: green;
-    font-weight: bold;
+  .finished {
+    background-color: #28a745;
+    color: white;
   }
-  
-  .status.incomplete {
-    color: red;
-    font-weight: bold;
+  .not-finished {
+    background-color: #dc3545;
+    color: white;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  .btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
   }
